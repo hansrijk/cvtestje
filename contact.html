@@ -1,10 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .personal-info {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .personal-info img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        section h2 {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        section p {
+            padding: 10px;
+            background: #fff;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    hoi hoi
+    <header>
+        <h1>John Doe's Resume</h1>
+    </header>
+    <div class="container">
+        <div class="personal-info">
+            <img src="path/to/photo1.jpg" alt="Photo 1">
+            <img src="path/to/photo2.jpg" alt="Photo 2">
+        </div>
+        <section>
+            <h2>Education</h2>
+            <p>Details about education...</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <p>Details about experience...</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p>Details about skills...</p>
+        </section>
+    </div>
 </body>
 </html>
